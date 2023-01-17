@@ -1,0 +1,588 @@
+body{
+	margin:0;
+	height: 100%;
+	background:#F4F4F4;
+	font-family:'Ubuntu', sans-serif; 
+}
+img {
+	width: 100%;
+	height: 100%;
+}
+a{
+	text-decoration: none;
+}
+
+p{
+	font-family:'Ubuntu', sans-serif;
+	color: #4e4f51;
+	font-size: 17px;
+	text-align: left;
+}
+video{
+	width: 100%;
+}
+.header{
+	width: 100%;
+	height: 60px;
+	background-color: #1517DB;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.logo{
+	width: 50px;
+	height: 50px;
+	padding: 2px;
+	margin: 5px;
+	float: left;
+}
+.perfil{
+	width: 50px;
+	height: 50px;
+	padding-top: 0px;
+	float: right;
+}
+.menu {
+	width: 100%;
+	height: auto;
+	padding: 5px;
+}
+.menu a{
+	color: #FFF;
+}
+.menu a:hover{
+	text-decoration: underline;
+	text-decoration-color: #FFF;
+	text-decoration-line: 2px;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+.navbar-toggler {
+    border-radius: 0px;
+    border-color: #00b0f0;
+    border: 2px;
+}
+.nivel-1{
+	width: 100%;
+	height: 100%;
+	margin-right: 0;
+	/*permitirá que el contenedor sidebar de la sección institucional se pueda posicionar por encima del header*/
+	position: relative;
+}
+.medio-1{
+	width: 100%;
+	height: auto;
+	background-image: url("../img/nivel-1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	align-content: center;
+	padding: 0;
+}
+.medio-2{
+	width: 100%;
+	height: 600px;
+	background: rgb(0,0,0);
+	background: linear-gradient(90deg, rgba(0,0,0,1) 30%, rgba(20,27,73,1) 69%);
+	align-content: center;
+}
+.medio-2{
+	width: 100%;
+	height: 100%;
+}
+.nivel-2{
+	width: 100%;
+	height: 100%;
+	background-image: url("../img/nivel-2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 10%;
+}
+.nivel-2 .centro{
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 700;
+	color: #fff;
+}
+.box-1{
+	width:504px;
+	height: 184px;
+	padding: 5px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #fff;
+}
+.border-box{
+	width:490px;
+	height: 170px;
+	background-color: #000;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #00b0f0;
+}
+.box-1 .foto{
+	width: 200px;
+	height: 166px;
+	float: left;
+}
+.texto-1 {
+    width: 280px;
+    height: 170px;
+    float: left;
+    padding: 10px;
+}
+.texto-1 h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    text-align: left;
+}
+.nivel-3{
+	width: 100%;
+	height: 100%;
+	background-image: url("../img/nivel-3.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 5%;
+	padding-top: 20px;
+}
+.nivel-3 .centro{
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 50px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 700;
+	color: #00b0f0;
+}
+.contenedor{
+	width: 100%;
+	height: auto;
+	margin-bottom: 50px;
+}
+.box-2 {
+    width: 340px;
+    height: 210px;
+    background-color: #FFF;
+    align-content: center;
+    border-style: solid;
+	border-width:2px;
+	border-color: #00b0f0;
+}
+.border-2{
+	width:352px;
+	height: 220px;
+	padding: 3px;
+	margin-top: 50px;
+	margin-bottom: 15px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #fff;
+	background-color: transparent;
+	align-content: center;
+}
+.box-2 .foto {
+    width: auto;
+    height: 150px;
+    position: relative;
+    background-position: center;
+}
+.texto-2 {
+    width: auto;
+    height: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+}
+.texto-2 h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #212529;
+    text-align: left;
+}
+.titular{
+	width: auto;
+	height: 30px;
+	padding: 5px;
+}
+.titular h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
+.nivel-4{
+	width: 100%;
+	height: 100%;
+	background-image: url("../img/nivel-4.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 5%;
+}
+.nivel-4 .centro{
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 700;
+}
+.box-left{
+	background-color: #bfbfbf;
+	width: 100%;
+	height: auto;
+	padding: 10px;
+	margin-top: 50px;
+	border-radius: 3px;
+	border-color: #000;
+	border-style: solid;
+	border-width: 1px;
+}
+.box-middle{
+	background-color: #bfbfbf;
+	width: 100%;
+	height: auto;
+	padding: 40px;
+	margin-top: 50px;
+	margin-right: 20px;
+	margin-left: 20px;
+	border-radius: 3px;
+	border-color: #000;
+	border-style: solid;
+	border-width: 1px;
+}
+.box-middle h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+}
+.box-right{
+	background-color: #bfbfbf;
+	width: 100%;
+	height: auto;
+	padding: 10px;
+	margin-top: 50px;
+	border-radius: 3px;
+	border-color: #000;
+	border-style: solid;
+	border-width: 1px;
+}
+.box-right h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #212529;
+    text-align: center;
+    padding-top: 10px;
+}
+.caja-1{
+	width: 100%;
+	height: 100%;
+	float: left;
+	padding-top: 20px;
+}
+.caja-2{
+	width: 100%;
+	height: auto;
+	padding: 10px;
+	padding-bottom: 10px;
+}
+.texto-3 {
+    width: 100%;
+    height: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.texto-3 h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.9em;
+    font-weight: 500;
+    color: #212529;
+    text-align: left;
+    padding: 5px;
+}
+.texto-3 img{
+	width: 30px;
+	height: 30px;
+	padding: 4px;
+	float: left;
+}
+.form-top{
+	padding-top: 10px;
+}
+.modal-texto h1{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	text-align: left;
+	padding: 10px;
+}
+.modal-texto h2{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	text-align: right;
+	padding: 10px;
+}
+.modal-foto{
+	width: 100%;
+	height: auto;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #00b0f0;
+	align-content: center;
+}
+.redes{
+	width: 100%;
+	height:auto;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	justify-content: center;
+}
+.centro-redes{
+	margin-top: 50px;
+}
+.centro-redes h1{
+	font-size: 20px;
+	font-weight: 700;
+	text-align: center;
+	padding: 10px;
+	color: #fff;
+}
+.icono{
+	width: 50px;
+	height: 50px;
+	margin: 3px;
+	justify-content: center;
+}
+#facebook{
+	width: 50px;
+	height: 50px;
+	padding: 5px;
+	background: url("../img/facebook.png");
+	background-size: cover;
+}
+#facebook:hover{
+	background-position: inherit;
+	background: url("../img/facebook-2.png");
+	background-size: cover;
+	cursor: pointer;
+}
+#twitter{
+	width: 50px;
+	height: 50px;
+	padding: 5px;
+	background: url("../img/twitter.png");
+	background-size: cover;
+}
+#twitter:hover{
+	background-position: inherit;
+	background: url("../img/twitter-2.png");
+	background-size: cover;
+	cursor: pointer;
+}
+#instagram{
+	width: 50px;
+	height: 50px;
+	padding: 5px;
+	background: url("../img/instagram.png");
+	background-size: cover;
+}
+#instagram:hover{
+	background-position: inherit;
+	background: url("../img/instagram-2.png");
+	background-size: cover;
+	cursor: pointer;
+}
+#youtube{
+	width: 50px;
+	height: 50px;
+	padding: 5px;
+	background: url("../img/youtube.png");
+	background-size: cover;
+}
+#youtube:hover{
+	background-position: inherit;
+	background: url("../img/youtube-2.png");
+	background-size: cover;
+	cursor: pointer;
+}
+.footer{
+	width: 100%;
+	height: auto;
+	background-color: #1517DB;
+	position: static;
+}
+.footer h1{
+	text-align: center;
+	font-size: 17px;
+	font-weight: 400;
+	font-style: italic;
+	color: #fff;
+	padding: 10px;
+}
+.carousel-caption{
+	position: unset;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.carousel-caption h5{
+	font-size: 14px;
+}
+@media (max-width:1200px){
+	.box-2{
+		width: auto;
+		height: auto;
+	}
+	.border-2{
+		width: auto;
+		height: auto;
+	}
+	.box-2 .foto{
+		width: 100%;
+		height: 100%;
+	}
+	.texto-2{
+		width: auto;
+		padding-top: 20px;
+	}
+}
+@media (max-width:990px){
+	.box-middle{
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
+@media (max-width:560px){
+	.box-1{
+		width: auto;
+		height: auto;
+	}
+	.border-box{
+		width: auto;
+		height: 100%;
+	}
+	.box-1 .foto{
+		width: 100%;
+		height: auto;
+	}
+	.texto-1{
+		width: auto;
+		height: auto;
+		padding-top: 20px;
+	}
+	.texto-1 h1{
+		font-size: 13px;
+	}
+}
+
+/*---------------Configuración de la página en general con posicionamiento relativo---------------*/
+.pagina{
+	position: relative;
+	z-index: 1;
+}
+
+/*-------------------------------Menu desplegable del Navbar-------------------------------*/
+.menu-vertical-navbar{
+	position: absolute;
+	display: none;
+	list-style: none;
+	border:2px #000;
+	background-color: rgb(255, 255, 255);
+	padding: 5px;
+}
+.menu li:hover .menu-vertical-navbar{
+	display: block;
+}
+.menu-vertical-navbar:hover{
+	background-color: rgb(255, 255, 255);
+	border:2px solid #000;
+	font-weight: bold;
+	transform:scale (1.00);
+	transition: all .1s ease;
+}
+.menu-vertical-navbar a{
+	display: block;
+	color: #000;
+}
+
+/*-----------------------------Fondo del header o encabezado------------------------------*/
+.fondo-institucional{
+	width: 100%;
+	height: 70vh;
+}
+.fondo-institucional {
+	background-image: url("../img/institucional/portada_institucional.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 10% 70%;
+}
+
+/*------------------------Sidebar lateral de la sección institucional-------------------------*/
+div nav.left-nav a {
+	color: #ffffff;
+	font-weight: bold;
+	display: block;
+}
+.box-left-sidebar{	
+	background-color: #00b0f0;
+	width: 100%;
+	height: 100%;
+	position: relative;
+    top: -100px;
+	border-color: #000;
+	border-style: solid;
+}
+.box-left-sidebar a{
+	background-color: #00b0f0;
+	padding: 15px;
+	text-decoration: none;
+}
+/*-----------------------------------Texto descriptivo del lado derecho------------------------------*/
+.contenedor_descripcion{
+	border-left:4px solid #000;
+}
+.contenido_descripcion{
+	margin-bottom: 20px;
+	padding: 20px 0 20px 0;
+	border-bottom: 4px solid #000;
+}
+/*---------------------Sección de Autoridades------------------------*/
+/*Configuración del contenedor de las fotos 4x4 de cada autoridad*/
+.descripcion-autoridades{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.foto-perfil img{
+	width: 170px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 5px solid #000;
+}
+.titulos-sin-negrita{
+	font-weight: normal;
+}
+.titulos-con-negrita{
+	font-weight: bold;
+}
+/*---------------------Sección de Secretaría------------------------*/
+/*Configuración del contenedor del titulo general de secretaría*/
+.titulos-secretaria-estilos{
+	border-bottom: 2px solid #000;
+	margin-bottom: 15px;
+}
