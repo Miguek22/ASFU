@@ -45,6 +45,10 @@ video{
 	padding-top: 0px;
 	float: right;
 }
+.navbar{
+	background: #1517DB;
+	border-radius: 20px;
+}
 .menu {
 	width: 100%;
 	height: auto;
@@ -586,3 +590,211 @@ div nav.left-nav a {
 	border-bottom: 2px solid #000;
 	margin-bottom: 15px;
 }
+/*---------------------Sección de Beneficios------------------------*/
+/*Configuración de los contenedores de Beneficios*/
+.contenedor-general{
+	background: #F4F4F4;
+	max-width: 1200px;
+	margin: auto;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
+	border-bottom: 3px solid #000;
+}
+.contenedor-general a{
+	text-decoration: none;
+}
+.subcontenedor{
+	background: #4e4f51;
+	margin: 10px;
+	width: 305px;
+	height: 155px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
+	border: 1px solid #000;
+}
+.contenedor-titulo-beneficios{
+	align-items: center;
+	margin: 25px;
+}
+.titulo-beneficios{
+	text-align: center;
+}
+.segundo-subcontenedor-1{
+	background: #00b0f0;
+	width: 150px;
+	height: 150px;
+}
+.segundo-subcontenedor-2{
+	background: #f00000;
+	width: 150px;
+	height: 150px;
+}
+.titulos-lista{
+	margin-top: 55px;
+	text-align: center;
+	color: #fff;
+}
+.contenedor-socio{
+	background: #002060;
+	max-width: 1400px;
+	height: 150px;
+	margin: 20px 0 20px 0;
+	text-align: center;
+}
+.contenido-socio{
+	display: block;
+	text-align: center;
+}
+.contenido-socio h4{
+	padding-top: 35px;
+	color: #fff;
+}
+.contenedor-texto-socio{
+	margin-bottom: 10px;
+}
+.texto-socio{
+	color: #fff;
+	margin: 10px;
+	text-align: center;
+	font-size: 15px;
+}
+/*----------------------TAB DE BENEFICIOS----------------------*/
+.contenedor-tab{
+	width: 100%;
+	height: 700px;
+	margin: auto;
+	margin-top: 20px;
+}
+.opciones{
+	background: #00b0f0;
+	border: 3px solid #000;
+	overflow: auto;
+}
+.opciones li{
+	display: inline-block;
+	padding: 20px 47px 20px 47px;
+	cursor: pointer;
+	transition: all 400ms ease;
+	margin-bottom: 0.0rem;
+	color: #fff;
+	align-items: center;
+	gap: 0.5rem;
+	font-weight: 500;
+}
+.opciones li:hover{
+	background: #002060;
+}
+.contenedor-tarjetas{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+.titulo-tab{
+	margin: 10px 0 10px 0;
+}
+.tarjetas{
+	width: 200px;
+	border: 2px solid #000;
+	display: flex;
+	flex-wrap: wrap;
+}
+.imagen-tarjetas{
+	width: 90%;
+	height: 100px;
+	margin-left: 9px;
+	padding: 5px 0 15px 0;
+	border-bottom: 1px solid #000;
+}
+.nombre-comercio{
+	width: 100%;
+	height: 40px;
+}
+.nombre-comercio p{
+	color: #f15e5e;
+	font-weight: bold;
+	padding: 13px 0 0 9px;
+}
+.direccion-comercio{
+	width: 100%;
+	height: 20px;
+	display: flex;
+}
+.direccion-comercio p{
+	padding-top: 8px;
+	font-size:10px;
+	color: #5bcfde;
+	font-weight: bold;
+}
+.beneficio-comercio{
+	width: 100%;
+	height: 70px;
+	padding-top: 8px;
+	display: flex;
+}
+.beneficio-comercio p{
+	padding: 8px 5px 0 9px;
+	font-size:10px;
+	font-weight: normal;
+}
+.boton-imprimir{
+	width: 90%;
+	height: 40px;
+	margin: 5px 0 5px 9px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 2px solid #000;
+	border-radius: 5px;
+	background: #00b0f0;
+}
+.boton-imprimir a{
+	text-decoration: none;
+	color: #fff;
+}
+.precio-beneficio{
+	width: 90%;
+	height: 20px;
+	display: flex;
+	margin: 0px 0 5px 9px;
+	align-items: center;
+	justify-content: center;
+}
+.tab-container {
+	width: 70%;
+	margin: 0 auto 3rem auto;
+	box-shadow: 0 0.8rem 1rem var(--box-shadow);
+}
+@media (max-width: 1200px) {
+	.tab-container {
+	width: 100%;
+	}
+}
+.tab-filter-item-container {
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+.tab-item {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	padding: 0rem 3rem;
+	transform: translateY(100%);
+	transition: transform 0.5s ease-in-out;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(29rem, 1fr));
+	place-items: center start;
+}
+.tab-item.select_tab {
+	transform: translateY(0);
+	transition: transform 0.5s ease-in-out;
+	background: var(--white-light);
+	animation: feadIn 0.6s ease-in-out;
+}
+  
